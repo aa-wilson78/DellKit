@@ -3,7 +3,7 @@
 A native iOS design system study modeled on the MyDell Mobile app, built **code-first**:
 tokens and SwiftUI are the source of truth, and the Figma library is generated from them.
 
-> Unofficial portfolio study. Not affiliated with Dell. Placeholder palette, original icons.
+> Unofficial portfolio study. Not affiliated with Dell. Original icons.
 
 ```
 tokens/   W3C DTCG token source + build (Swift, CSS, Figma variables) + WCAG check

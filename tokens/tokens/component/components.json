@@ -1,0 +1,184 @@
+{
+  "component": {
+    "button": {
+      "primary": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.action.primary.default}"
+        },
+        "backgroundPressed": {
+          "$type": "color",
+          "$value": "{color.action.primary.pressed}"
+        },
+        "backgroundDisabled": {
+          "$type": "color",
+          "$value": "{color.action.primary.disabled}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.text.onPrimary}"
+        },
+        "foregroundDisabled": {
+          "$type": "color",
+          "$value": "{color.text.tertiary}"
+        }
+      },
+      "height": {
+        "$type": "dimension",
+        "$value": "{size.touchTarget}"
+      },
+      "paddingX": {
+        "$type": "dimension",
+        "$value": "{space.5}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.md}"
+      },
+      "outline": {
+        "backgroundPressed": {
+          "$type": "color",
+          "$value": "{color.action.secondary.pressed}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.border.strong}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.text.link}"
+        }
+      },
+      "text": {
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.text.link}"
+        }
+      }
+    },
+    "statusBadge": {
+      "paddingX": {
+        "$type": "dimension",
+        "$value": "{space.2}"
+      },
+      "paddingY": {
+        "$type": "dimension",
+        "$value": "{space.1}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.full}"
+      }
+    },
+    "listRow": {
+      "minHeight": {
+        "$type": "dimension",
+        "$value": "{size.touchTarget}"
+      },
+      "paddingX": {
+        "$type": "dimension",
+        "$value": "{space.4}"
+      },
+      "paddingY": {
+        "$type": "dimension",
+        "$value": "{space.3}"
+      },
+      "divider": {
+        "$type": "color",
+        "$value": "{color.border.default}"
+      }
+    },
+    "card": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.bg.elevated}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.border.default}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "{space.4}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.lg}"
+      }
+    },
+    "field": {
+      "border": {
+        "$type": "color",
+        "$value": "{color.border.default}"
+      },
+      "borderFocus": {
+        "$type": "color",
+        "$value": "{color.border.focus}"
+      },
+      "borderError": {
+        "$type": "color",
+        "$value": "{color.status.error}"
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{color.text.tertiary}"
+      },
+      "value": {
+        "$type": "color",
+        "$value": "{color.text.primary}"
+      },
+      "height": {
+        "$type": "dimension",
+        "$value": "{size.touchTarget}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.sm}"
+      },
+      "paddingX": {
+        "$type": "dimension",
+        "$value": "{space.3}"
+      }
+    },
+    "chat": {
+      "assistantBubble": {
+        "$type": "color",
+        "$value": "{color.bg.elevated}"
+      },
+      "assistantText": {
+        "$type": "color",
+        "$value": "{color.text.primary}"
+      },
+      "userBubble": {
+        "$type": "color",
+        "$value": "{color.bg.inverse}"
+      },
+      "userText": {
+        "$type": "color",
+        "$value": "{color.text.inverse}"
+      },
+      "bubbleRadius": {
+        "$type": "dimension",
+        "$value": "{radius.lg}"
+      },
+      "bubblePadding": {
+        "$type": "dimension",
+        "$value": "{space.3}"
+      }
+    },
+    "tabBar": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.bg.secondary}"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "{color.action.primary.default}"
+      },
+      "inactive": {
+        "$type": "color",
+        "$value": "{color.text.secondary}"
+      }
+    }
+  }
+}

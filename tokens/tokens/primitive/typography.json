@@ -1,0 +1,29 @@
+{
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "system": { "$value": "SF Pro", "$description": "iOS system font. Resolves to .system() in SwiftUI so Dynamic Type works." }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "regular":  { "$value": 400 },
+      "medium":   { "$value": 500 },
+      "semibold": { "$value": 600 },
+      "bold":     { "$value": 700 }
+    }
+  },
+  "typography": {
+    "$type": "typography",
+    "$description": "Mapped to Apple text styles. sizes are the Large (default) Dynamic Type size; SwiftUI scales them automatically via textStyle.",
+    "largeTitle":  { "$value": { "fontFamily": "{font.family.system}", "fontSize": "34px", "fontWeight": "{font.weight.bold}",     "lineHeight": "41px" }, "$extensions": { "ios.textStyle": "largeTitle" } },
+    "title1":      { "$value": { "fontFamily": "{font.family.system}", "fontSize": "28px", "fontWeight": "{font.weight.bold}",     "lineHeight": "34px" }, "$extensions": { "ios.textStyle": "title" } },
+    "title2":      { "$value": { "fontFamily": "{font.family.system}", "fontSize": "22px", "fontWeight": "{font.weight.semibold}", "lineHeight": "28px" }, "$extensions": { "ios.textStyle": "title2" } },
+    "title3":      { "$value": { "fontFamily": "{font.family.system}", "fontSize": "20px", "fontWeight": "{font.weight.semibold}", "lineHeight": "25px" }, "$extensions": { "ios.textStyle": "title3" } },
+    "headline":    { "$value": { "fontFamily": "{font.family.system}", "fontSize": "17px", "fontWeight": "{font.weight.semibold}", "lineHeight": "22px" }, "$extensions": { "ios.textStyle": "headline" } },
+    "body":        { "$value": { "fontFamily": "{font.family.system}", "fontSize": "17px", "fontWeight": "{font.weight.regular}",  "lineHeight": "22px" }, "$extensions": { "ios.textStyle": "body" } },
+    "callout":     { "$value": { "fontFamily": "{font.family.system}", "fontSize": "16px", "fontWeight": "{font.weight.regular}",  "lineHeight": "21px" }, "$extensions": { "ios.textStyle": "callout" } },
+    "subheadline": { "$value": { "fontFamily": "{font.family.system}", "fontSize": "15px", "fontWeight": "{font.weight.regular}",  "lineHeight": "20px" }, "$extensions": { "ios.textStyle": "subheadline" } },
+    "footnote":    { "$value": { "fontFamily": "{font.family.system}", "fontSize": "13px", "fontWeight": "{font.weight.regular}",  "lineHeight": "18px" }, "$extensions": { "ios.textStyle": "footnote" } },
+    "caption":     { "$value": { "fontFamily": "{font.family.system}", "fontSize": "12px", "fontWeight": "{font.weight.medium}",   "lineHeight": "16px" }, "$extensions": { "ios.textStyle": "caption" } }
+  }
+}

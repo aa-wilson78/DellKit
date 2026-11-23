@@ -1,0 +1,2666 @@
+{
+  "collections": {
+    "Primitives": {
+      "modes": [
+        "Value"
+      ],
+      "variables": [
+        {
+          "name": "blue/50",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue50",
+            "WEB": "var(--dk-color-blue-50)"
+          },
+          "values": {
+            "Value": "#EAF3FC"
+          }
+        },
+        {
+          "name": "blue/100",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue100",
+            "WEB": "var(--dk-color-blue-100)"
+          },
+          "values": {
+            "Value": "#CFE4F8"
+          }
+        },
+        {
+          "name": "blue/200",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue200",
+            "WEB": "var(--dk-color-blue-200)"
+          },
+          "values": {
+            "Value": "#9FC8F0"
+          }
+        },
+        {
+          "name": "blue/300",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue300",
+            "WEB": "var(--dk-color-blue-300)"
+          },
+          "values": {
+            "Value": "#6AA9E6"
+          }
+        },
+        {
+          "name": "blue/400",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue400",
+            "WEB": "var(--dk-color-blue-400)"
+          },
+          "values": {
+            "Value": "#3B8CDB"
+          }
+        },
+        {
+          "name": "blue/500",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue500",
+            "WEB": "var(--dk-color-blue-500)"
+          },
+          "values": {
+            "Value": "#1474CC"
+          }
+        },
+        {
+          "name": "blue/600",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue600",
+            "WEB": "var(--dk-color-blue-600)"
+          },
+          "values": {
+            "Value": "#0E5FAE"
+          }
+        },
+        {
+          "name": "blue/700",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue700",
+            "WEB": "var(--dk-color-blue-700)"
+          },
+          "values": {
+            "Value": "#0A4A8A"
+          }
+        },
+        {
+          "name": "blue/800",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue800",
+            "WEB": "var(--dk-color-blue-800)"
+          },
+          "values": {
+            "Value": "#073767"
+          }
+        },
+        {
+          "name": "blue/900",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.blue900",
+            "WEB": "var(--dk-color-blue-900)"
+          },
+          "values": {
+            "Value": "#042443"
+          }
+        },
+        {
+          "name": "gray/0",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray0",
+            "WEB": "var(--dk-color-gray-0)"
+          },
+          "values": {
+            "Value": "#FFFFFF"
+          }
+        },
+        {
+          "name": "gray/50",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray50",
+            "WEB": "var(--dk-color-gray-50)"
+          },
+          "values": {
+            "Value": "#F7F8F9"
+          }
+        },
+        {
+          "name": "gray/100",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray100",
+            "WEB": "var(--dk-color-gray-100)"
+          },
+          "values": {
+            "Value": "#EEF0F2"
+          }
+        },
+        {
+          "name": "gray/200",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray200",
+            "WEB": "var(--dk-color-gray-200)"
+          },
+          "values": {
+            "Value": "#DDE1E5"
+          }
+        },
+        {
+          "name": "gray/300",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray300",
+            "WEB": "var(--dk-color-gray-300)"
+          },
+          "values": {
+            "Value": "#C2C8CF"
+          }
+        },
+        {
+          "name": "gray/400",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray400",
+            "WEB": "var(--dk-color-gray-400)"
+          },
+          "values": {
+            "Value": "#98A1AB"
+          }
+        },
+        {
+          "name": "gray/500",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray500",
+            "WEB": "var(--dk-color-gray-500)"
+          },
+          "values": {
+            "Value": "#66707A"
+          }
+        },
+        {
+          "name": "gray/600",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray600",
+            "WEB": "var(--dk-color-gray-600)"
+          },
+          "values": {
+            "Value": "#525B65"
+          }
+        },
+        {
+          "name": "gray/700",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray700",
+            "WEB": "var(--dk-color-gray-700)"
+          },
+          "values": {
+            "Value": "#3A4149"
+          }
+        },
+        {
+          "name": "gray/800",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray800",
+            "WEB": "var(--dk-color-gray-800)"
+          },
+          "values": {
+            "Value": "#24292F"
+          }
+        },
+        {
+          "name": "gray/850",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray850",
+            "WEB": "var(--dk-color-gray-850)"
+          },
+          "values": {
+            "Value": "#1A1E22"
+          }
+        },
+        {
+          "name": "gray/900",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray900",
+            "WEB": "var(--dk-color-gray-900)"
+          },
+          "values": {
+            "Value": "#111417"
+          }
+        },
+        {
+          "name": "gray/1000",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.gray1000",
+            "WEB": "var(--dk-color-gray-1000)"
+          },
+          "values": {
+            "Value": "#000000"
+          }
+        },
+        {
+          "name": "green/100",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.green100",
+            "WEB": "var(--dk-color-green-100)"
+          },
+          "values": {
+            "Value": "#DDF3E4"
+          }
+        },
+        {
+          "name": "green/400",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.green400",
+            "WEB": "var(--dk-color-green-400)"
+          },
+          "values": {
+            "Value": "#3DBE6A"
+          }
+        },
+        {
+          "name": "green/600",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.green600",
+            "WEB": "var(--dk-color-green-600)"
+          },
+          "values": {
+            "Value": "#17773A"
+          }
+        },
+        {
+          "name": "green/800",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.green800",
+            "WEB": "var(--dk-color-green-800)"
+          },
+          "values": {
+            "Value": "#0B3A1C"
+          }
+        },
+        {
+          "name": "amber/100",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.amber100",
+            "WEB": "var(--dk-color-amber-100)"
+          },
+          "values": {
+            "Value": "#FFF1D6"
+          }
+        },
+        {
+          "name": "amber/400",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.amber400",
+            "WEB": "var(--dk-color-amber-400)"
+          },
+          "values": {
+            "Value": "#F5B230"
+          }
+        },
+        {
+          "name": "amber/600",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.amber600",
+            "WEB": "var(--dk-color-amber-600)"
+          },
+          "values": {
+            "Value": "#B97A00"
+          }
+        },
+        {
+          "name": "amber/800",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.amber800",
+            "WEB": "var(--dk-color-amber-800)"
+          },
+          "values": {
+            "Value": "#5E3E00"
+          }
+        },
+        {
+          "name": "red/100",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.red100",
+            "WEB": "var(--dk-color-red-100)"
+          },
+          "values": {
+            "Value": "#FCE3E1"
+          }
+        },
+        {
+          "name": "red/400",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.red400",
+            "WEB": "var(--dk-color-red-400)"
+          },
+          "values": {
+            "Value": "#F47F74"
+          }
+        },
+        {
+          "name": "red/600",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.red600",
+            "WEB": "var(--dk-color-red-600)"
+          },
+          "values": {
+            "Value": "#C42B1F"
+          }
+        },
+        {
+          "name": "red/800",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.red800",
+            "WEB": "var(--dk-color-red-800)"
+          },
+          "values": {
+            "Value": "#4A0F0A"
+          }
+        },
+        {
+          "name": "space/0",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space0",
+            "WEB": "var(--dk-space-0)"
+          },
+          "values": {
+            "Value": 0
+          }
+        },
+        {
+          "name": "space/1",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space1",
+            "WEB": "var(--dk-space-1)"
+          },
+          "values": {
+            "Value": 4
+          }
+        },
+        {
+          "name": "space/2",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space2",
+            "WEB": "var(--dk-space-2)"
+          },
+          "values": {
+            "Value": 8
+          }
+        },
+        {
+          "name": "space/3",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space3",
+            "WEB": "var(--dk-space-3)"
+          },
+          "values": {
+            "Value": 12
+          }
+        },
+        {
+          "name": "space/4",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space4",
+            "WEB": "var(--dk-space-4)"
+          },
+          "values": {
+            "Value": 16
+          }
+        },
+        {
+          "name": "space/5",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space5",
+            "WEB": "var(--dk-space-5)"
+          },
+          "values": {
+            "Value": 20
+          }
+        },
+        {
+          "name": "space/6",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space6",
+            "WEB": "var(--dk-space-6)"
+          },
+          "values": {
+            "Value": 24
+          }
+        },
+        {
+          "name": "space/8",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space8",
+            "WEB": "var(--dk-space-8)"
+          },
+          "values": {
+            "Value": 32
+          }
+        },
+        {
+          "name": "space/10",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space10",
+            "WEB": "var(--dk-space-10)"
+          },
+          "values": {
+            "Value": 40
+          }
+        },
+        {
+          "name": "space/12",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.space12",
+            "WEB": "var(--dk-space-12)"
+          },
+          "values": {
+            "Value": 48
+          }
+        },
+        {
+          "name": "radius/none",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.radiusNone",
+            "WEB": "var(--dk-radius-none)"
+          },
+          "values": {
+            "Value": 0
+          }
+        },
+        {
+          "name": "radius/sm",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.radiusSm",
+            "WEB": "var(--dk-radius-sm)"
+          },
+          "values": {
+            "Value": 6
+          }
+        },
+        {
+          "name": "radius/md",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.radiusMd",
+            "WEB": "var(--dk-radius-md)"
+          },
+          "values": {
+            "Value": 10
+          }
+        },
+        {
+          "name": "radius/lg",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.radiusLg",
+            "WEB": "var(--dk-radius-lg)"
+          },
+          "values": {
+            "Value": 16
+          }
+        },
+        {
+          "name": "radius/full",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.radiusFull",
+            "WEB": "var(--dk-radius-full)"
+          },
+          "values": {
+            "Value": 999
+          }
+        },
+        {
+          "name": "size/touchTarget",
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Apple HIG minimum hit area.",
+          "codeSyntax": {
+            "iOS": "DK.Metric.sizeTouchTarget",
+            "WEB": "var(--dk-size-touchTarget)"
+          },
+          "values": {
+            "Value": 44
+          }
+        }
+      ]
+    },
+    "Semantic": {
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "variables": [
+        {
+          "name": "bg/primary",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Screen background.",
+          "codeSyntax": {
+            "iOS": "DK.Color.bgPrimary",
+            "WEB": "var(--dk-color-bg-primary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/0"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/1000"
+              }
+            }
+          }
+        },
+        {
+          "name": "bg/secondary",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Grouped list / inset background.",
+          "codeSyntax": {
+            "iOS": "DK.Color.bgSecondary",
+            "WEB": "var(--dk-color-bg-secondary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/50"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/900"
+              }
+            }
+          }
+        },
+        {
+          "name": "bg/elevated",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Cards and sheets.",
+          "codeSyntax": {
+            "iOS": "DK.Color.bgElevated",
+            "WEB": "var(--dk-color-bg-elevated)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/0"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/850"
+              }
+            }
+          }
+        },
+        {
+          "name": "bg/inverse",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "High-emphasis surface that flips per mode (e.g. user chat bubble).",
+          "codeSyntax": {
+            "iOS": "DK.Color.bgInverse",
+            "WEB": "var(--dk-color-bg-inverse)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/900"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/0"
+              }
+            }
+          }
+        },
+        {
+          "name": "text/primary",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.textPrimary",
+            "WEB": "var(--dk-color-text-primary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/900"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/50"
+              }
+            }
+          }
+        },
+        {
+          "name": "text/secondary",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.textSecondary",
+            "WEB": "var(--dk-color-text-secondary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/300"
+              }
+            }
+          }
+        },
+        {
+          "name": "text/tertiary",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.textTertiary",
+            "WEB": "var(--dk-color-text-tertiary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/500"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/400"
+              }
+            }
+          }
+        },
+        {
+          "name": "text/inverse",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.textInverse",
+            "WEB": "var(--dk-color-text-inverse)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/0"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/900"
+              }
+            }
+          }
+        },
+        {
+          "name": "text/link",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.textLink",
+            "WEB": "var(--dk-color-text-link)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/300"
+              }
+            }
+          }
+        },
+        {
+          "name": "text/onPrimary",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "Text/icons on primary action surfaces. White in both modes.",
+          "codeSyntax": {
+            "iOS": "DK.Color.textOnPrimary",
+            "WEB": "var(--dk-color-text-onPrimary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/0"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/0"
+              }
+            }
+          }
+        },
+        {
+          "name": "border/default",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.borderDefault",
+            "WEB": "var(--dk-color-border-default)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/200"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/700"
+              }
+            }
+          }
+        },
+        {
+          "name": "border/strong",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.borderStrong",
+            "WEB": "var(--dk-color-border-strong)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/500"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/500"
+              }
+            }
+          }
+        },
+        {
+          "name": "border/focus",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.borderFocus",
+            "WEB": "var(--dk-color-border-focus)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/500"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/300"
+              }
+            }
+          }
+        },
+        {
+          "name": "action/primary/default",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.actionPrimaryDefault",
+            "WEB": "var(--dk-color-action-primary-default)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/500"
+              }
+            }
+          }
+        },
+        {
+          "name": "action/primary/pressed",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.actionPrimaryPressed",
+            "WEB": "var(--dk-color-action-primary-pressed)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/700"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/600"
+              }
+            }
+          }
+        },
+        {
+          "name": "action/primary/disabled",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.actionPrimaryDisabled",
+            "WEB": "var(--dk-color-action-primary-disabled)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/200"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/700"
+              }
+            }
+          }
+        },
+        {
+          "name": "action/secondary/default",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.actionSecondaryDefault",
+            "WEB": "var(--dk-color-action-secondary-default)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/50"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/900"
+              }
+            }
+          }
+        },
+        {
+          "name": "action/secondary/pressed",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.actionSecondaryPressed",
+            "WEB": "var(--dk-color-action-secondary-pressed)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/100"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/800"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/success",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusSuccess",
+            "WEB": "var(--dk-color-status-success)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "green/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "green/400"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/successSubtle",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusSuccessSubtle",
+            "WEB": "var(--dk-color-status-successSubtle)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "green/100"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "green/800"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/warning",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusWarning",
+            "WEB": "var(--dk-color-status-warning)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "amber/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "amber/400"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/warningSubtle",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusWarningSubtle",
+            "WEB": "var(--dk-color-status-warningSubtle)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "amber/100"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "amber/800"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/error",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusError",
+            "WEB": "var(--dk-color-status-error)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "red/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "red/400"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/errorSubtle",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusErrorSubtle",
+            "WEB": "var(--dk-color-status-errorSubtle)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "red/100"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "red/800"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/info",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusInfo",
+            "WEB": "var(--dk-color-status-info)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/300"
+              }
+            }
+          }
+        },
+        {
+          "name": "status/infoSubtle",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.statusInfoSubtle",
+            "WEB": "var(--dk-color-status-infoSubtle)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/50"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/900"
+              }
+            }
+          }
+        },
+        {
+          "name": "order/processing",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.orderProcessing",
+            "WEB": "var(--dk-color-order-processing)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/info"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/info"
+              }
+            }
+          }
+        },
+        {
+          "name": "order/shipped",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.orderShipped",
+            "WEB": "var(--dk-color-order-shipped)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/info"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/info"
+              }
+            }
+          }
+        },
+        {
+          "name": "order/delivered",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.orderDelivered",
+            "WEB": "var(--dk-color-order-delivered)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/success"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/success"
+              }
+            }
+          }
+        },
+        {
+          "name": "order/delayed",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.orderDelayed",
+            "WEB": "var(--dk-color-order-delayed)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/warning"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/warning"
+              }
+            }
+          }
+        },
+        {
+          "name": "order/cancelled",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.orderCancelled",
+            "WEB": "var(--dk-color-order-cancelled)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/error"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/error"
+              }
+            }
+          }
+        },
+        {
+          "name": "icon/primary",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.iconPrimary",
+            "WEB": "var(--dk-color-icon-primary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/900"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/50"
+              }
+            }
+          }
+        },
+        {
+          "name": "icon/secondary",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.iconSecondary",
+            "WEB": "var(--dk-color-icon-secondary)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/300"
+              }
+            }
+          }
+        },
+        {
+          "name": "icon/brand",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.iconBrand",
+            "WEB": "var(--dk-color-icon-brand)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/600"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "blue/300"
+              }
+            }
+          }
+        },
+        {
+          "name": "icon/inverse",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.iconInverse",
+            "WEB": "var(--dk-color-icon-inverse)"
+          },
+          "values": {
+            "Light": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/0"
+              }
+            },
+            "Dark": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "gray/900"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Components": {
+      "modes": [
+        "Value"
+      ],
+      "variables": [
+        {
+          "name": "button/primary/background",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonPrimaryBackground",
+            "WEB": "var(--dk-component-button-primary-background)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "action/primary/default"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/primary/backgroundPressed",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonPrimaryBackgroundPressed",
+            "WEB": "var(--dk-component-button-primary-backgroundPressed)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "action/primary/pressed"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/primary/backgroundDisabled",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonPrimaryBackgroundDisabled",
+            "WEB": "var(--dk-component-button-primary-backgroundDisabled)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "action/primary/disabled"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/primary/foreground",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonPrimaryForeground",
+            "WEB": "var(--dk-component-button-primary-foreground)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/onPrimary"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/primary/foregroundDisabled",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonPrimaryForegroundDisabled",
+            "WEB": "var(--dk-component-button-primary-foregroundDisabled)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/tertiary"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/height",
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.buttonHeight",
+            "WEB": "var(--dk-component-button-height)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "size/touchTarget"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/paddingX",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.buttonPaddingX",
+            "WEB": "var(--dk-component-button-paddingX)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/5"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/radius",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.buttonRadius",
+            "WEB": "var(--dk-component-button-radius)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "radius/md"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/outline/backgroundPressed",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonOutlineBackgroundPressed",
+            "WEB": "var(--dk-component-button-outline-backgroundPressed)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "action/secondary/pressed"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/outline/border",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonOutlineBorder",
+            "WEB": "var(--dk-component-button-outline-border)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "border/strong"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/outline/foreground",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonOutlineForeground",
+            "WEB": "var(--dk-component-button-outline-foreground)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/link"
+              }
+            }
+          }
+        },
+        {
+          "name": "button/text/foreground",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.buttonTextForeground",
+            "WEB": "var(--dk-component-button-text-foreground)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/link"
+              }
+            }
+          }
+        },
+        {
+          "name": "statusBadge/paddingX",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.statusBadgePaddingX",
+            "WEB": "var(--dk-component-statusBadge-paddingX)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/2"
+              }
+            }
+          }
+        },
+        {
+          "name": "statusBadge/paddingY",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.statusBadgePaddingY",
+            "WEB": "var(--dk-component-statusBadge-paddingY)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/1"
+              }
+            }
+          }
+        },
+        {
+          "name": "statusBadge/radius",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.statusBadgeRadius",
+            "WEB": "var(--dk-component-statusBadge-radius)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "radius/full"
+              }
+            }
+          }
+        },
+        {
+          "name": "listRow/minHeight",
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.listRowMinHeight",
+            "WEB": "var(--dk-component-listRow-minHeight)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "size/touchTarget"
+              }
+            }
+          }
+        },
+        {
+          "name": "listRow/paddingX",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.listRowPaddingX",
+            "WEB": "var(--dk-component-listRow-paddingX)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/4"
+              }
+            }
+          }
+        },
+        {
+          "name": "listRow/paddingY",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.listRowPaddingY",
+            "WEB": "var(--dk-component-listRow-paddingY)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/3"
+              }
+            }
+          }
+        },
+        {
+          "name": "listRow/divider",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.listRowDivider",
+            "WEB": "var(--dk-component-listRow-divider)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "border/default"
+              }
+            }
+          }
+        },
+        {
+          "name": "card/background",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.cardBackground",
+            "WEB": "var(--dk-component-card-background)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "bg/elevated"
+              }
+            }
+          }
+        },
+        {
+          "name": "card/border",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.cardBorder",
+            "WEB": "var(--dk-component-card-border)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "border/default"
+              }
+            }
+          }
+        },
+        {
+          "name": "card/padding",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.cardPadding",
+            "WEB": "var(--dk-component-card-padding)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/4"
+              }
+            }
+          }
+        },
+        {
+          "name": "card/radius",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.cardRadius",
+            "WEB": "var(--dk-component-card-radius)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "radius/lg"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/border",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.fieldBorder",
+            "WEB": "var(--dk-component-field-border)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "border/default"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/borderFocus",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.fieldBorderFocus",
+            "WEB": "var(--dk-component-field-borderFocus)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "border/focus"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/borderError",
+          "type": "COLOR",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.fieldBorderError",
+            "WEB": "var(--dk-component-field-borderError)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "status/error"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/placeholder",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.fieldPlaceholder",
+            "WEB": "var(--dk-component-field-placeholder)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/tertiary"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/value",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.fieldValue",
+            "WEB": "var(--dk-component-field-value)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/primary"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/height",
+          "type": "FLOAT",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.fieldHeight",
+            "WEB": "var(--dk-component-field-height)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "size/touchTarget"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/radius",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.fieldRadius",
+            "WEB": "var(--dk-component-field-radius)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "radius/sm"
+              }
+            }
+          }
+        },
+        {
+          "name": "field/paddingX",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.fieldPaddingX",
+            "WEB": "var(--dk-component-field-paddingX)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/3"
+              }
+            }
+          }
+        },
+        {
+          "name": "chat/assistantBubble",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.chatAssistantBubble",
+            "WEB": "var(--dk-component-chat-assistantBubble)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "bg/elevated"
+              }
+            }
+          }
+        },
+        {
+          "name": "chat/assistantText",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.chatAssistantText",
+            "WEB": "var(--dk-component-chat-assistantText)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/primary"
+              }
+            }
+          }
+        },
+        {
+          "name": "chat/userBubble",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.chatUserBubble",
+            "WEB": "var(--dk-component-chat-userBubble)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "bg/inverse"
+              }
+            }
+          }
+        },
+        {
+          "name": "chat/userText",
+          "type": "COLOR",
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.chatUserText",
+            "WEB": "var(--dk-component-chat-userText)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/inverse"
+              }
+            }
+          }
+        },
+        {
+          "name": "chat/bubbleRadius",
+          "type": "FLOAT",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.chatBubbleRadius",
+            "WEB": "var(--dk-component-chat-bubbleRadius)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "radius/lg"
+              }
+            }
+          }
+        },
+        {
+          "name": "chat/bubblePadding",
+          "type": "FLOAT",
+          "scopes": [
+            "GAP"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Metric.chatBubblePadding",
+            "WEB": "var(--dk-component-chat-bubblePadding)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Primitives",
+                "name": "space/3"
+              }
+            }
+          }
+        },
+        {
+          "name": "tabBar/background",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.tabBarBackground",
+            "WEB": "var(--dk-component-tabBar-background)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "bg/secondary"
+              }
+            }
+          }
+        },
+        {
+          "name": "tabBar/active",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.tabBarActive",
+            "WEB": "var(--dk-component-tabBar-active)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "action/primary/default"
+              }
+            }
+          }
+        },
+        {
+          "name": "tabBar/inactive",
+          "type": "COLOR",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "TEXT_FILL",
+            "STROKE_COLOR"
+          ],
+          "description": "",
+          "codeSyntax": {
+            "iOS": "DK.Color.tabBarInactive",
+            "WEB": "var(--dk-component-tabBar-inactive)"
+          },
+          "values": {
+            "Value": {
+              "alias": {
+                "collection": "Semantic",
+                "name": "text/secondary"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "textStyles": [
+    {
+      "name": "largeTitle",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 34,
+      "lineHeight": 41
+    },
+    {
+      "name": "title1",
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 28,
+      "lineHeight": 34
+    },
+    {
+      "name": "title2",
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 22,
+      "lineHeight": 28
+    },
+    {
+      "name": "title3",
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 20,
+      "lineHeight": 25
+    },
+    {
+      "name": "headline",
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 17,
+      "lineHeight": 22
+    },
+    {
+      "name": "body",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 17,
+      "lineHeight": 22
+    },
+    {
+      "name": "callout",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeight": 21
+    },
+    {
+      "name": "subheadline",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 15,
+      "lineHeight": 20
+    },
+    {
+      "name": "footnote",
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 13,
+      "lineHeight": 18
+    },
+    {
+      "name": "caption",
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": 16
+    }
+  ]
+}

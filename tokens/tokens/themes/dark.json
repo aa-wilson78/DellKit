@@ -1,0 +1,111 @@
+{
+  "color": {
+    "$type": "color",
+    "bg": {
+      "primary": {
+        "$value": "{color.gray.1000}"
+      },
+      "secondary": {
+        "$value": "{color.gray.900}"
+      },
+      "elevated": {
+        "$value": "{color.gray.850}"
+      },
+      "inverse": {
+        "$value": "{color.gray.0}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "{color.gray.50}"
+      },
+      "secondary": {
+        "$value": "{color.gray.300}"
+      },
+      "tertiary": {
+        "$value": "{color.gray.400}"
+      },
+      "inverse": {
+        "$value": "{color.gray.900}"
+      },
+      "link": {
+        "$value": "{color.blue.300}"
+      },
+      "onPrimary": {
+        "$value": "{color.gray.0}"
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{color.gray.700}"
+      },
+      "strong": {
+        "$value": "{color.gray.500}"
+      },
+      "focus": {
+        "$value": "{color.blue.300}"
+      }
+    },
+    "action": {
+      "primary": {
+        "default": {
+          "$value": "{color.blue.500}"
+        },
+        "pressed": {
+          "$value": "{color.blue.600}"
+        },
+        "disabled": {
+          "$value": "{color.gray.700}"
+        }
+      },
+      "secondary": {
+        "default": {
+          "$value": "{color.blue.900}"
+        },
+        "pressed": {
+          "$value": "{color.blue.800}"
+        }
+      }
+    },
+    "status": {
+      "success": {
+        "$value": "{color.green.400}"
+      },
+      "successSubtle": {
+        "$value": "{color.green.800}"
+      },
+      "warning": {
+        "$value": "{color.amber.400}"
+      },
+      "warningSubtle": {
+        "$value": "{color.amber.800}"
+      },
+      "error": {
+        "$value": "{color.red.400}"
+      },
+      "errorSubtle": {
+        "$value": "{color.red.800}"
+      },
+      "info": {
+        "$value": "{color.blue.300}"
+      },
+      "infoSubtle": {
+        "$value": "{color.blue.900}"
+      }
+    },
+    "icon": {
+      "primary": {
+        "$value": "{color.gray.50}"
+      },
+      "secondary": {
+        "$value": "{color.gray.300}"
+      },
+      "brand": {
+        "$value": "{color.blue.300}"
+      },
+      "inverse": {
+        "$value": "{color.gray.900}"
+      }
+    }
+  }
+}

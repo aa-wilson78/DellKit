@@ -1,0 +1,135 @@
+{
+  "color": {
+    "$type": "color",
+    "$description": "Semantic layer \u2014 LIGHT mode values. Dark overrides live in tokens/themes/dark.json with identical paths.",
+    "bg": {
+      "primary": {
+        "$value": "{color.gray.0}",
+        "$description": "Screen background."
+      },
+      "secondary": {
+        "$value": "{color.gray.50}",
+        "$description": "Grouped list / inset background."
+      },
+      "elevated": {
+        "$value": "{color.gray.0}",
+        "$description": "Cards and sheets."
+      },
+      "inverse": {
+        "$value": "{color.gray.900}",
+        "$description": "High-emphasis surface that flips per mode (e.g. user chat bubble)."
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "{color.gray.900}"
+      },
+      "secondary": {
+        "$value": "{color.gray.600}"
+      },
+      "tertiary": {
+        "$value": "{color.gray.500}"
+      },
+      "inverse": {
+        "$value": "{color.gray.0}"
+      },
+      "link": {
+        "$value": "{color.blue.600}"
+      },
+      "onPrimary": {
+        "$value": "{color.gray.0}",
+        "$description": "Text/icons on primary action surfaces. White in both modes."
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{color.gray.200}"
+      },
+      "strong": {
+        "$value": "{color.gray.500}"
+      },
+      "focus": {
+        "$value": "{color.blue.500}"
+      }
+    },
+    "action": {
+      "primary": {
+        "default": {
+          "$value": "{color.blue.600}"
+        },
+        "pressed": {
+          "$value": "{color.blue.700}"
+        },
+        "disabled": {
+          "$value": "{color.gray.200}"
+        }
+      },
+      "secondary": {
+        "default": {
+          "$value": "{color.blue.50}"
+        },
+        "pressed": {
+          "$value": "{color.blue.100}"
+        }
+      }
+    },
+    "status": {
+      "success": {
+        "$value": "{color.green.600}"
+      },
+      "successSubtle": {
+        "$value": "{color.green.100}"
+      },
+      "warning": {
+        "$value": "{color.amber.600}"
+      },
+      "warningSubtle": {
+        "$value": "{color.amber.100}"
+      },
+      "error": {
+        "$value": "{color.red.600}"
+      },
+      "errorSubtle": {
+        "$value": "{color.red.100}"
+      },
+      "info": {
+        "$value": "{color.blue.600}"
+      },
+      "infoSubtle": {
+        "$value": "{color.blue.50}"
+      }
+    },
+    "order": {
+      "$description": "Domain tokens for order tracking states. Map product language to status semantics so a state can be re-themed without touching components.",
+      "processing": {
+        "$value": "{color.status.info}"
+      },
+      "shipped": {
+        "$value": "{color.status.info}"
+      },
+      "delivered": {
+        "$value": "{color.status.success}"
+      },
+      "delayed": {
+        "$value": "{color.status.warning}"
+      },
+      "cancelled": {
+        "$value": "{color.status.error}"
+      }
+    },
+    "icon": {
+      "primary": {
+        "$value": "{color.gray.900}"
+      },
+      "secondary": {
+        "$value": "{color.gray.600}"
+      },
+      "brand": {
+        "$value": "{color.blue.600}"
+      },
+      "inverse": {
+        "$value": "{color.gray.0}"
+      }
+    }
+  }
+}

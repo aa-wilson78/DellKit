@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Xcode / SwiftPM user state
+.swiftpm/xcode/xcuserdata/
+xcuserdata/
+*.xcuserstate
+.build/
+DerivedData/
+
+# Node
+node_modules/
+npm-debug.log*

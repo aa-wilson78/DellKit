@@ -1,0 +1,51 @@
+{
+  "color": {
+    "$type": "color",
+    "$description": "Primitive palette. Raw values only — never referenced directly by components. Placeholder ramps: swap for your audited values.",
+    "blue": {
+      "50":  { "$value": "#EAF3FC" },
+      "100": { "$value": "#CFE4F8" },
+      "200": { "$value": "#9FC8F0" },
+      "300": { "$value": "#6AA9E6" },
+      "400": { "$value": "#3B8CDB" },
+      "500": { "$value": "#1474CC" },
+      "600": { "$value": "#0E5FAE" },
+      "700": { "$value": "#0A4A8A" },
+      "800": { "$value": "#073767" },
+      "900": { "$value": "#042443" }
+    },
+    "gray": {
+      "0":   { "$value": "#FFFFFF" },
+      "50":  { "$value": "#F7F8F9" },
+      "100": { "$value": "#EEF0F2" },
+      "200": { "$value": "#DDE1E5" },
+      "300": { "$value": "#C2C8CF" },
+      "400": { "$value": "#98A1AB" },
+      "500": { "$value": "#66707A" },
+      "600": { "$value": "#525B65" },
+      "700": { "$value": "#3A4149" },
+      "800": { "$value": "#24292F" },
+      "850": { "$value": "#1A1E22" },
+      "900": { "$value": "#111417" },
+      "1000":{ "$value": "#000000" }
+    },
+    "green": {
+      "100": { "$value": "#DDF3E4" },
+      "400": { "$value": "#3DBE6A" },
+      "600": { "$value": "#17773A" },
+      "800": { "$value": "#0B3A1C" }
+    },
+    "amber": {
+      "100": { "$value": "#FFF1D6" },
+      "400": { "$value": "#F5B230" },
+      "600": { "$value": "#B97A00" },
+      "800": { "$value": "#5E3E00" }
+    },
+    "red": {
+      "100": { "$value": "#FCE3E1" },
+      "400": { "$value": "#F47F74" },
+      "600": { "$value": "#C42B1F" },
+      "800": { "$value": "#4A0F0A" }
+    }
+  }
+}

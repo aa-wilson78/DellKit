@@ -6,7 +6,7 @@ tokens and SwiftUI are the source of truth, and the Figma library is generated f
 > Unofficial portfolio study. Not affiliated with Dell. Original icons.
 
 ```
-tokens/   W3C DTCG token source + build (Swift, CSS, Figma variables) + WCAG check
+tokens/   W3C DTCG token source + build (Swift, CSS, Figma variables) + WCAG check + Figma drift check
 ios/      DellKit Swift package (iOS 16+): tokens, icons, 20 components, catalog
 ```
 
@@ -17,6 +17,28 @@ ios/      DellKit Swift package (iOS 16+): tokens, icons, 20 components, catalog
    - writes `ios/Sources/DellKit/Tokens/DellKitTokens.swift` directly
    - writes `build/figma/variables.json`, which Claude Code pushes into the Figma library
 3. Refine details in Figma; bring decisions back as token or view changes. Code stays the source of truth.
+4. `npm run reconcile` checks Figma against code and fails if they have drifted (see below).
+
+## Drift check
+
+`scripts/reconcile.mjs` compares the variables code generates (`build/figma/variables.json`) with a snapshot
+of the Figma file's local variables (`figma-snapshot.json`, read by Claude Code through the Figma MCP in the
+same shape). It reports, per variable and per mode:
+
+- **missing**: in code, not in Figma
+- **extra**: added by hand in Figma, not in code
+- **unbound**: code expects an alias, Figma holds a raw value (the alias chain was broken)
+- **alias**: aliased to a different variable than code says
+- **value** and **type**: raw values or types that disagree
+
+It exits with code 1 when it finds drift, so it can gate a build. To see it work without a Figma file:
+
+```
+cd tokens && npm run build && npm run reconcile:demo
+```
+
+`fixtures/figma-snapshot.sample.json` has five deliberate drifts (a broken alias, a wrong alias, a nudged hex,
+a deleted variable and a one-off variable), and the demo reports all five.
 
 ## Using the package
 

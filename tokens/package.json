@@ -1,10 +1,12 @@
 {
   "name": "dellkit-tokens",
   "version": "1.0.0",
-  "description": "DellKit design tokens: W3C DTCG source that builds to Swift, CSS and Figma variables, with a WCAG AA contrast check",
+  "description": "DellKit design tokens: W3C DTCG source that builds to Swift, CSS and Figma variables, with a WCAG AA contrast check and a Figma drift check",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/contrast.mjs"
+    "check": "node scripts/contrast.mjs",
+    "reconcile": "node scripts/reconcile.mjs build/figma/variables.json figma-snapshot.json",
+    "reconcile:demo": "node scripts/reconcile.mjs build/figma/variables.json fixtures/figma-snapshot.sample.json"
   },
   "keywords": [],
   "author": "Aaron Wilson",

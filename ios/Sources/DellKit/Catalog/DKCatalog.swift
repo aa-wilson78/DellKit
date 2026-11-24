@@ -27,16 +27,16 @@ struct DashboardScreen: View {
             VStack(spacing: DK.Metric.space3) {
                 DKListRow("Track shipments (2 devices)", icon: .truck)
                 DKSectionHeader("Your Laptop") {}
-                DKDeviceCard("XPS 13", serviceTag: "H7JK09K")
+                DKDeviceCard("Laptop 13", serviceTag: "H7JK09K")
                 DKListRow("Transfer files to your new PC")
-                DKListRow("Warranty", icon: .shieldCheck, trailing: .value("Premium Support Plus"))
+                DKListRow("Warranty", icon: .shieldCheck, trailing: .value("Extended Support"))
                 DKSectionHeader("Your Accessories") {}
-                DKDeviceListItem("Dell UltraSharp 38 Curved USB-C Hub Monitor", assigned: 1, total: 1)
+                DKDeviceListItem("38-inch Curved USB-C Monitor", assigned: 1, total: 1)
                 DKSectionHeader("Tips for you", actionIcon: nil)
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: DK.Metric.space3) {
                         DKTipCard(number: 1, title: "Keyboard Backlight", message: "Turn on the keyboard backlight to work comfortably in low light. Press F10 to cycle brightness.") {}
-                        DKTipCard(number: 2, title: "Windows Ink Workspace", message: "Open pen apps such as Screen Sketch and Sticky Notes with one press of the pen button.") {}
+                        DKTipCard(number: 2, title: "Pen Shortcuts", message: "Open your favorite pen apps with one press of the pen button.") {}
                     }
                 }
             }
@@ -75,7 +75,7 @@ struct CreateAccountScreen: View {
         ScrollView {
             VStack(alignment: .leading, spacing: DK.Metric.space4) {
                 Text("Create your account").font(DK.Typography.title2).foregroundStyle(DK.Color.textPrimary)
-                Text("Manage your Dell devices, warranties and support in one place.")
+                Text("Manage your devices, warranties and support in one place.")
                     .font(DK.Typography.footnote).foregroundStyle(DK.Color.textSecondary)
                 DKTextField("First Name*", text: $first)
                 DKTextField("Last Name*", text: $last)
@@ -89,7 +89,7 @@ struct CreateAccountScreen: View {
                 DKButton("Create Account") {}.disabled(emailError != nil || password.isEmpty || password != confirm)
                 DKCodeInput(code: $code).frame(maxWidth: .infinity)
                 DKButton("Verify") {}.disabled(code.count < 6)
-                DKButton("Sign in with Dell ID", style: .outline, icon: .signIn) {}
+                DKButton("Sign in with Account ID", style: .outline, icon: .signIn) {}
             }
             .padding(DK.Metric.space6)
         }
@@ -107,19 +107,19 @@ struct AssistantScreen: View {
             VStack(alignment: .leading, spacing: DK.Metric.space3) {
                 DKChatMessage("Hello Sophie! Please select which product you need support for.", sender: .assistant)
                 VStack(spacing: 0) {
-                    DKChatProductOption("XPS 13") {}
-                    DKChatProductOption("Dell Premium Wireless Keyboard and Mouse") {}
-                    DKChatProductOption("Dell UltraSharp 38 Curved USB-C Hub Monitor") {}
+                    DKChatProductOption("Laptop 13") {}
+                    DKChatProductOption("Wireless Keyboard and Mouse") {}
+                    DKChatProductOption("38-inch Curved USB-C Monitor") {}
                 }
                 .frame(maxWidth: 240).padding(.leading, 40)
-                DKChatMessage("XPS 13", sender: .user, userAvatar: me)
+                DKChatMessage("Laptop 13", sender: .user, userAvatar: me)
                 DKChatMessage("Please select the applicable option for your device", sender: .assistant)
                 DKQuickReplies(["Keyboard is not working", "Charging issue", "Display issue", "Damaged device", "Other issues"]) { _ in }
                 DKChatMessage("Display issue", sender: .user, userAvatar: me)
                 DKChatMessage("Here are some related articles and videos that might help you", sender: .assistant)
                 VStack(alignment: .leading, spacing: DK.Metric.space2) {
-                    DKArticleCard("How to Fix a Boot Problem (Official Dell problem solving)") {}
-                    DKArticleCard("Dell XPS 13 9310 Review - The 13\" Laptop I'd Use") {}
+                    DKArticleCard("How to Fix a Boot Problem") {}
+                    DKArticleCard("Laptop 13 Review: A Week of Everyday Use") {}
                 }
                 .padding(.leading, 40)
                 DKChatMessage("Was this helpful?", sender: .assistant)
@@ -129,7 +129,7 @@ struct AssistantScreen: View {
             .padding(DK.Metric.space4)
         }
         .background(DK.Color.bgPrimary)
-        .dkNavigationBar("Dell Virtual Assistant", subtitle: "24*7 Support Chat")
+        .dkNavigationBar("Virtual Assistant", subtitle: "24*7 Support Chat")
     }
 }
 

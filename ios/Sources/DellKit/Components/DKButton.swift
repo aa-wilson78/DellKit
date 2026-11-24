@@ -84,7 +84,7 @@ public struct DKButtonStyle: ButtonStyle {
     VStack(spacing: 16) {
         DKButton("Create Account") {}
         DKButton("Create Account") {}.disabled(true)
-        DKButton("Sign in with Dell ID", style: .outline, icon: .signIn) {}
+        DKButton("Sign in with Account ID", style: .outline, icon: .signIn) {}
         DKButton("Cancel", style: .text) {}
     }
     .padding()

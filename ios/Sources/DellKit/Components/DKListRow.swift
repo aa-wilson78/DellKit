@@ -152,7 +152,7 @@ public struct DKTimelineItem: View {
     VStack(spacing: 12) {
         DKSectionHeader("Your Laptop") {}
         DKListRow("Track shipment", icon: .truck)
-        DKListRow("Warranty", icon: .shieldCheck, trailing: .value("Premium Support Plus"))
+        DKListRow("Warranty", icon: .shieldCheck, trailing: .value("Extended Support"))
         DKListRow("HYD7I3S", trailing: .radio(isSelected: true))
         DKTimelineItem(date: "Jun 12, 2020", time: "12:11 PM", detail: "Left FedEx origin facility, Middletown, PA")
         DKTimelineItem(date: "Jun 17, 2020", detail: "Estimated arrival date", isComplete: false, showsLine: false)

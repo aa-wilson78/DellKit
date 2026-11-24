@@ -192,11 +192,11 @@ public struct DKTipCard: View {
 #Preview("Device cards") {
     ScrollView {
         VStack(spacing: 16) {
-            DKDeviceCard("XPS 13", serviceTag: "H7JK09K")
-            DKDeviceListItem("Latitude 9420", assigned: 2, total: 4)
+            DKDeviceCard("Laptop 13", serviceTag: "H7JK09K")
+            DKDeviceListItem("Laptop 14 Pro", assigned: 2, total: 4)
             HStack {
-                DKDeviceSelectTile("Latitude 9420", availability: "7 Available") {}
-                DKDeviceSelectTile("Latitude 9510", availability: "7 Available", selectedCount: 1) {}
+                DKDeviceSelectTile("Laptop 14 Pro", availability: "7 Available") {}
+                DKDeviceSelectTile("Laptop 15 Pro", availability: "7 Available", selectedCount: 1) {}
             }
             DKTipCard(number: 1, title: "Keyboard Backlight", message: "Press F10 to cycle brightness.") {}
         }

@@ -5,7 +5,7 @@ import SwiftUI
 // NavigationStack + toolbar for the top bar, TabView for the bottom bar. That keeps back
 // gestures, large-title behaviour, VoiceOver and safe areas native.
 
-/// Figma: Navigation Bar. Centered title with optional subtitle (e.g. "Dell Virtual Assistant / 24*7 Support Chat").
+/// Figma: Navigation Bar. Centered title with optional subtitle (e.g. "Virtual Assistant / 24*7 Support Chat").
 public struct DKNavigationBarModifier: ViewModifier {
     let title: String
     let subtitle: String?
